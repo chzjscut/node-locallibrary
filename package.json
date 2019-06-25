@@ -1,0 +1,32 @@
+{
+    "name": "koa2-simple",
+    "version": "1.0.0",
+    "description": "Koa 2 example with async",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --use_strict app.js",
+		"devstart": "nodemon app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "zj c",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/michaelliao/learn-javascript.git"
+    },
+    "dependencies": {
+        "koa": "^2.7.0",
+        "koa-bodyparser": "^4.2.1",
+        "koa-router": "^7.4.0",
+        "mysql": "^2.17.1",
+        "mysql2": "^1.6.5",
+        "node-uuid": "^1.4.8",
+        "sequelize": "^5.8.6"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
